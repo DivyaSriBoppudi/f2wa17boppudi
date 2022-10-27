@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= h1
+  p
+    b(style= {color: "red"}) atan2(y, x) 
+    |  applied to 
+    i(style={color: "blue"}) #{x}
+    |  and 
+    i(style={color: "blue"}) #{y}
+    |  is  
+    i(style={color: "orange"}) #{f1}
+  p
+    b(style= {color: "red"}) atanh(x) 
+    |  applied to 
+    i(style={color: "blue"}) #{x}
+    |  and is  
+    i(style={color: "orange"}) #{f2}
+  p
+    b(style= {color: "red"}) cbrt(x) 
+    |  applied to 
+    i(style={color: "blue"}) #{x}
+    |  and is  
+    i(style={color: "orange"}) #{f3}
